@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const config = {
-    host : 'localhost',
-    user : 'express',
+    host : '3.82.68.223',
+    user : 'manu',
     database: 'negocio_agua',
-    password: 'express',
+    password: 'password',
 };
 
 const conn = mysql.createConnection(config);
